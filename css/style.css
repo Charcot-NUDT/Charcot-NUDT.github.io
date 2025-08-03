@@ -1452,3 +1452,16 @@ pre .javascript .function {
     padding: 20px;
   }
 }
+#sidebar .experience-detail a {
+  color: #337ab7; /* 链接颜色，可以改成 inherit 让它和父元素一样 */
+  text-decoration: none; /* 去掉下划线 */
+  border-bottom: 1px dotted #337ab7; /* 用虚线底部边框代替下划线，更雅致 */
+  -webkit-transition: color 0.2s, border-bottom-color 0.2s;
+  -moz-transition: color 0.2s, border-bottom-color 0.2s;
+  -ms-transition: color 0.2s, border-bottom-color 0.2s;
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+#sidebar .experience-detail a:hover {
+  color: #23527c; /* 鼠标悬停时颜色加深 */
+  border-bottom-color: #23527c;
+}
